@@ -8,12 +8,12 @@
 
   // image assets (background and obstacle). You can replace these files in /assets
   const bgImg = new Image();
-  bgImg.src = "assets/bg.svg";
+  bgImg.src = "bg.svg";
   const obsImg = new Image();
-  obsImg.src = "assets/obstacle.svg";
+  obsImg.src = "obstacle.svg";
   // player image (optional). Defaults to provided asset; user can replace via file input.
   let playerImg = new Image();
-  playerImg.src = "assets/obj.png";
+  playerImg.src = "obj.png";
 
   // --- Audio (using WebAudio API). We synthesize simple tones so no external files are required.
   let audioCtx = null;
@@ -58,13 +58,13 @@
 
   // Background music: simple repeating arpeggio using short tones
   // File-based audio elements (optional). If you add files named below in /assets they will be used.
-  const bgAudio = new Audio("assets/bg.mp3");
+  const bgAudio = new Audio("bg.mp3");
   bgAudio.preload = "auto";
-  const startAudio = new Audio("assets/back.mp3");
+  const startAudio = new Audio("back.mp3");
   startAudio.preload = "auto";
-  const gameOverAudio = new Audio("assets/over.mp3");
+  const gameOverAudio = new Audio("over.mp3");
   gameOverAudio.preload = "auto";
-  const clickAudio = new Audio("assets/jump.mp3");
+  const clickAudio = new Audio("jump.mp3");
   clickAudio.preload = "auto";
 
   // synth fallback for background music
@@ -566,3 +566,4 @@
 
   requestAnimationFrame(step);
 })();
+
