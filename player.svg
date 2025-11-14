@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="120" height="120" rx="16" fill="#ff6b6b" />
+    <circle cx="80" cy="48" r="8" fill="#fff" />
+    <g transform="translate(16,70)" fill="#e05656">
+      <rect x="0" y="0" width="88" height="18" rx="6" />
+    </g>
+  </g>
+</svg>
